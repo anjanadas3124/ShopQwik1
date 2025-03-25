@@ -180,7 +180,7 @@ $total = 0;
             <p><b>Total: $<?= $total ?></b></p>
         </div>
         <button class="checkout-btn">CHECKOUT</button>
-        <form method="POST" action="">
+        <form method="POST" action="checkout.php">
             <button type="submit" name="clear_cart" class="clear-cart-btn">CLEAR CART</button>
         </form>
     <?php else: ?>
